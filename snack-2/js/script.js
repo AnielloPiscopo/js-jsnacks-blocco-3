@@ -3,7 +3,7 @@ const numbersList = [];
 let sum = 0;
 
 do{
-    userNumber = parseFloat(prompt('Inserisci il tuo numero'));
+    let userNumber = parseFloat(prompt('Inserisci il tuo numero'));
 
 
     if(Number.isNaN(userNumber)){

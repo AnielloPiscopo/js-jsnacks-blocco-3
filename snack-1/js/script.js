@@ -3,6 +3,7 @@ let userNumber;
 
 alert('Inserisci un numero da 1 a 10');
 
+
 do{
     userNumber = parseFloat(prompt('Digita il tuo numero'));
 
