@@ -4,6 +4,8 @@ console.log(correctNumber);
 
 let userNumber;
 
+alert('Inserisci un numero da 1 a 10 finché non avrai trovato il valore corretto');
+
 do{
     userNumber = parseFloat(prompt('Digita il tuo numero'));
 }while(userNumber !== correctNumber)
