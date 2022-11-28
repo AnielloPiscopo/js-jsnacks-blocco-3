@@ -13,6 +13,8 @@ if(arr1.length < arr2.length){
     alert('La seconda lista di array è più piccola della prima');
 
     arrayLengthControl(arr2 , arr1);
+}else{
+    alert('I due array sono uguali');
 }
 
 
