@@ -26,9 +26,18 @@ console.log('Lista 2 dopo il lavoro: ' + arr2);
 
 
 function controlOfValue(a){
-    while(a === null || a === ''){
+    while(a === null){
+        alert('Hai cliccato annulla oppure ESC');
         a = prompt('Ridigita il valore');
     }
+
+    a = a.replace(/\s/g,'');
+
+    while(a === ''){
+        alert('Hai inserito una stringa vuota');
+        a = prompt('Ridigita il valore');
+    }
+
     return a;
 }
 
