@@ -8,7 +8,17 @@ alert(randomNumberBetweenTwoExtremis(userNumber1,userNumber2));
 
 
 
+function randomNumberBetweenTwoExtremis(extremis1,extremis2){
+    let minValue;
+    let maxValue;
 
-function randomNumberBetweenTwoExtremis(minValue,maxValue){
+    
+    if(extremis1 < extremis2){
+        minValue = extremis1;
+        maxValue = extremis2
+    }else{
+        minValue = extremis2;
+        maxValue = extremis1;
+    }
     return Math.floor(Math.random() * (maxValue - minValue) + minValue);
 }
