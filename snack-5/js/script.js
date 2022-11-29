@@ -20,5 +20,7 @@ function randomNumberBetweenTwoExtremis(extremis1,extremis2){
         minValue = extremis2;
         maxValue = extremis1;
     }
-    return Math.floor(Math.random() * (maxValue - minValue) + minValue);
+
+
+    return (Math.random() * (maxValue - minValue) + minValue).toFixed(2);
 }
