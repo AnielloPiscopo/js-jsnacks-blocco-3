@@ -26,7 +26,7 @@ for(let i=0 ; i<array.length ; i++){
 
     if(array[i]%2 === 0){
         divColorGreen.append(pElement);
-    }else{
+    }else if(array[i]%2 === 1){
         divColorRed.append(pElement);
     }
 }
