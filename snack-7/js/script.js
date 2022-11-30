@@ -20,6 +20,8 @@
 const divColorRed = document.querySelector('div#color-red');
 const divColorGreen = document.querySelector('div#color-green');
 
+console.log(array)
+
 for(let i=0 ; i<array.length ; i++){
     let pElement = getPElements(array[i]);
 
