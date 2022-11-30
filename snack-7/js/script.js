@@ -23,7 +23,7 @@ const divColorGreen = document.querySelector('div#color-green');
 console.log(array);
 
 for(let i=0 ; i<array.length ; i++){
-    let pElement = getPElements(array[i]);
+    let pElement = getPElement(array[i]);
 
 
     if(array[i]%2 === 0){
@@ -35,7 +35,7 @@ for(let i=0 ; i<array.length ; i++){
 
 
 
-function getPElements(innerContent){
+function getPElement(innerContent){
     let p = document.createElement('p');
     p.innerHTML = innerContent;
     return p;
